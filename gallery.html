@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Photo Gallery</title>
+	<style>
+		
+        body{
+        background-color: black;
+
+      }
+    
+    h1{
+        color: white; 
+        text-align:center; 
+        font-family: cursive;
+        font-size: 50px;
+
+      }
+
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+
+		.gallery {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+			grid-gap: 20px;
+		}
+
+		.gallery img {
+			max-width: 100%;
+			height: auto;
+			object-fit: cover;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+			transition: transform 0.3s ease;
+		}
+
+		.gallery img:hover {
+			transform: scale(1.05);
+		}
+        .zombieHand {
+            margin-left: 30%;
+            max-width: 40%;
+        }
+		.image-container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.text-container {
+			margin-top: 10px;
+			text-align: center;
+			font-weight: bolder;
+			font-family: cursive;
+			font-size: larger;
+			color: rgb(255, 0, 0);
+		}
+
+		
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Zombie Gallery</h1>
+        <a href="gallery7.jpg">
+            <img src="gallery7.jpg" alt="Image 7" class="zombieHand">
+        </a>
+		<div class="gallery">
+            
+			<div class="image-container">
+			<a href="gallery1.png">
+				<img src="gallery1.png" alt="Image 1">
+				<div class="text-container">
+					<p>Apocalypse</p>
+				</div>
+			</a>
+			</div>
+
+			<div class="image-container">
+
+			<a href="gallery2.png">
+				<img src="gallery2.png" alt="Image 2">
+				<div class="text-container">
+					<p>Brute</p>
+				</div>
+			</a>
+			</div>
+
+			<div class="image-container">
+
+			<a href="gallery3.png">
+				<img src="gallery3.png" alt="Image 3">
+				<div class="text-container">
+					<p>Cryptcrawl</p>
+				</div>
+			</a>
+			</div>
+
+			<div class="image-container">
+
+			<a href="gallery4.png">
+				<img src="gallery4.png" alt="Image 4">
+				<div class="text-container">
+					<p>Doomgrowl</p>
+				</div>
+				
+			</a>
+			</div>
+
+			<div class="image-container">
+
+			<a href="gallery5.png">
+				<img src="gallery5.png" alt="Image 5">
+				<div class="text-container">
+					<p>Flare</p>
+				</div>
+			</a>
+			</div>
+
+			<div class="image-container">
+
+			<a href="gallery6.png">
+				<img src="gallery6.png" alt="Image 6">
+				<div class="text-container">
+					<p>Glimmer</p>
+				</div>
+			</a>
+			</div>
+	</div>
+	</div>
+</body>
+</html>

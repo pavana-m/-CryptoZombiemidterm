@@ -1,0 +1,24 @@
+{
+  "name": "cryptozombies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.1.0",
+    "browser-sync": "^2.27.7",
+    "truffle-hdwallet-provider": "^1.0.6",
+    "web3": "^0.20.7"
+  },
+  "devDependencies": {
+    "hardhat": "^2.13.0",
+    "http-server": "^14.1.1"
+  }
+}
