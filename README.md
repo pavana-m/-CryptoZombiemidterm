@@ -12,9 +12,11 @@ Gopi Kotadiya  (885872903 - gopikotadiya@csu.fullerton.edu). <br />             
 
 <h3>Enhancements. <br /> </h3>
 -> Built a nicer Website. <br />
--> Provided users with Zombie Gallery. <br />
+-> Multiple Zombie Creation <br />
 -> Removed hardcode<cryptoZombieAddress>. <br />
--> Randomized zombie images on each level up. <br />
+->  Assigning zombie images on creation. <br />
+->  Kitty Creation . <br />
+->  Zombie attack ( zombie vs zombie) . <br />
 <br />
 
 <h3>GitHub Link</h3>
